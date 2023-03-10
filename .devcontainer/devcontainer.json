@@ -1,3 +1,3 @@
 {
-    "image": "ghcr.io/cormach/pymc3-docker:latest"
+    "image": "bhrcjtsg/pymc3-docker:latest"
 }
