@@ -1,3 +1,11 @@
 {
-    "image": "bhrcjtsg/pymc3-docker:latest"
+	"image": "bhrcjtsg/pymc3-docker:latest",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter"
+			]
+		}
+	}
 }
