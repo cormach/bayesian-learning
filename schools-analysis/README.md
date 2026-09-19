@@ -9,6 +9,9 @@ A Bayesian analysis (PyMC) of how much value a secondary school adds at GCSE (KS
   - extensions for selection into A-level Maths (entries relative to cohort size) and a hierarchical model with partial pooling by region
   - goodness-of-fit checks and a test of whether the relationship flattens for the strongest GCSE schools
 - `english-multilevel.ipynb` — the same model for GCSE English (`P8MEAENG`) and A-level English Literature, as a multilevel model with region-varying intercept and slope.
+- `english-language-literature-multilevel.ipynb` — a multilevel model of A-level English Language and English Literature together against GCSE English, with subject-specific slopes and correlated school-level effects across the two subjects.
+- `science-multilevel.ipynb` — A-level Physics, Chemistry and Biology together against GCSE science (`SCIVAMEA_PTQ_EE`), with subject-specific slopes, an LKJ correlation matrix of school effects, a one-factor shared-school-effect model, and a regional (partial pooling) extension.
+- `language-multilevel.ipynb` — A-level Spanish, French and German together against GCSE languages (`LANVAMEA_PTQ_EE`), with the same correlated-residuals model and a regional extension; the data are thin, so the shared-school-effect model is not fitted.
 
 ## Data
 
