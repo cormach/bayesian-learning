@@ -2,6 +2,9 @@
 	"image": "bhrcjtsg/pymc3-docker:latest",
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"python.defaultInterpreterPath": "/opt/conda/bin/python"
+			},
 			"extensions": [
 				"ms-python.python",
 				"ms-toolsai.jupyter"
